@@ -36,7 +36,8 @@ const Homepage = () => {
             {statuses.map(s => {
                 return (
                     <div key={s.status} className={"col-wrapper"}>
-                        <h2 className={"col-header"}>{s.status.toUpperCase()}</h2>
+                        <div className={"color-bar"} style={{ backgroundColor: s.color }}/>
+                        <h2 className={"col-header"} >{s.status.toUpperCase()}</h2>
                         <DropWrapper onDrop={onDrop} status={s.status}>
                             <Col>
                             {/* showing items with status */}

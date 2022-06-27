@@ -2,32 +2,36 @@ const data = [{
     id: 1,
     icon: "📬",
     status: "OPEN BOUNTIES",
-    content: "Complete the code challenge"
+    content: "Complete the code challenge",
+    description:"React interview"
 }, {
     id: 2,
     icon: "📬",
     status: "OPEN BOUNTIES",
-    content: "Complete the code challenge"
+    content: "Email the code and hosted link",
+    description:"React interview"
 }, {
     id: 3,
     icon: "📬",
     status: "OPEN BOUNTIES",
-    content: "Complete the code challenge"
+    content: "Book an appointment",
+    description:"Family"
 }, {
     id: 4,
     icon: "📬",
     status: "OPEN BOUNTIES",
-    content: "Complete the code challenge"
+    content: "Call Josh",
+    description:"Work related call"
 }];
 
 const statuses = [{
     status: "OPEN BOUNTIES",
     icon: "📬",
-    color: "#EB5A46"
+    color: "#666666"
 }, {
     status: "ASSIGNED / IN PROGRESS",
     icon: "🔄",
-    color: "#00C2E0"
+    color: "#4D4DFF"
 }, {
     status: "UNDER REVIEW",
     icon: "📝",
@@ -35,7 +39,7 @@ const statuses = [{
 }, {
     status: "CLOSE / REWARDED",
     icon: "✔️",
-    color: "#3981DE"
+    color: "#22DD22"
 }];
 
 
