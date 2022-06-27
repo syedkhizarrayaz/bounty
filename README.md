@@ -21,4 +21,4 @@ localhost:4000/
 
 **Prototype:**
 
-![image](https://user-images.githubusercontent.com/61557423/175827580-fe2cea22-6497-4db1-adeb-a5b2e9d717fa.png)
+![image](https://user-images.githubusercontent.com/61557423/175980753-83b5543c-eb04-4926-b34e-54ca3c5e95b7.png)
